@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'CelebriSans';
+    src: url(./fonts/CelebriSans/Cerebri\ Sans\ Book.ttf);
+}
+
+@font-face {
+    font-family: 'PTSerif';
+    src: url(./fonts/PTSerif/PTSerif-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.container{
+    padding: 24px 24px;
+}
+
+.headerdiv{
+    display: flex;
+    align-items: center;
+}
+
+.avatarDiv{
+    margin-right: 10px;
+}
+
+.avatarDiv img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.headerText{
+    color: #121212;
+    font-family: 'PTSerif';
+    font-weight: 400;
+}
+
+.titleDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    color: #121212;
+    font-family: 'PTSerif';
+    font-weight: 700;
+}
+
+.reconfigureDiv{
+    border-radius: 16px;
+    background: rgba(255, 157, 0, 0.05);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.04);
+    color: #E78F00;
+    padding: 5px 16px;
+    border: 1px solid #E78F00;
+    font-family: 'CelebriSans';
+    font-size: 14px;
+}
+
+.accountDiv{
+    display: flex;
+   margin-top: 30px;
+}
+
+.accountInfo{
+    flex-basis: 65%;
+    background: rgba(0, 194, 103,0.1);
+    padding: 15px 15px;
+    border-radius: 6px;
+}
+
+.accountInfo p{
+  color: #1B1B1B;
+  font-family: "CelebriSans";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.accountInfo p span{
+    font-weight: 800;
+}
+
+.accountAmount{
+ flex-basis: 35%;
+ border-radius: 0 6px 6px 0;
+ background: #00C267;
+ padding: 15px 15px;
+}
+
+.originalAmount{
+    color: #fff;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.discountAmount{
+    color: #fff;
+    margin-top: 3px;
+}
+
+.mealDiv{
+    display: flex;
+    margin-top: 30px;
+}
+
+.mealInfo{
+    background: #F9F5E1;
+    padding: 15px 15px;
+    border-radius: 6px;
+    flex-basis: 65%;
+}
+
+.mealInfo p{
+    color: #1B1B1B;
+}
+
+.meal-cta{
+    background: #FFBE56;
+    border-radius: 0 6px 6px 0;
+    flex-basis: 35%;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.meal-cta p{
+    color: #fff;
+}
+
+.startedDiv{
+    background: #CFECFF;
+    border-radius: 6px;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.startedDiv h5{
+    color: #121212;
+}
+
+.startedText{
+    color: #383838;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.startedCTA{
+    display: flex;
+    margin-top: 30px;
+}
+
+.startedCTA div:first-child{
+    margin-right: 25px;
+}
+
+.callIconDiv{
+    background: rgba(190,164,255,0.7);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.callText{
+    margin-top: 10px;
+    max-width: 8rem;
+}
+
+.doItDiv{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.doIt{
+    color: #8A5CFF;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.playIconDiv{
+    background: rgba(255,146,101,0.7);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;  
+}
+
+.playDiv{
+    margin-top: 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.play{
+    color: #FF682A;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.eventsSect{
+    margin-top: 3`0px;
+}
+
+.eventsDate{
+    color: #00C267;
+}
+
+.timeDiv{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventInfo{
+    background: #CFECFF;
+    border-radius: 10px;
+    padding: 15px 12px;
+    flex-basis: 80%;
+}
+
+/* ------------------MEDIA QUERY SECTION ------------------------- */
+/* Media query for tablets and screens higher */
+@media (min-width: 768px) {
+    
+}
+
+
+/* sreens higher than tablets */
+@media (min-width: 1024px) {
+
+}
+
+/* large screens */
+@media (min-width: 1536px) {
+   
+}
